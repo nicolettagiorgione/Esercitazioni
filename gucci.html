@@ -1,0 +1,418 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Sito ufficiale GUCCI® IT | Una nuova definizione di lusso.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+				
+</head>
+    <header>
+        <div class="contenitore">
+            <div class="Sinistra">
+                <div class="italia">
+                    <img class="iconluogo" src="img/image2.png"></img>
+                    <a class="colore">Italia</a>
+                      <div class="shopping">
+                         <div class="negozio"><a><strong>SHOPPING ONLINE DISPONIBILE</strong></a></li>
+                           <p>
+                            Si ricorda che cambiare località durante gli acquisti comporta lo svuotamento del carrello.
+                           </p>
+                         </div>
+                         <div class="cambio" style="width: 276px;">
+                           <a class="scegliere">
+                             <span>
+                                Spediamo in:
+                                Italia
+                             </span>
+                             <span class="paese">
+                               Cambia il Paese/Regione
+                              </span>
+                            </a>
+                         </div>
+                        <div class="negozio"><a><strong>RICERCA NEGOZIO</strong></a></div>
+                        <div class="contenitore-search"> 
+                          <div class="cerca">
+                          <form action="/it/it/store" method="get">
+                            <input
+                                  id="ftr-store-location"
+                                  placeholder="Paese, regione, città"
+                                  type="text"
+                                  name="store-search">
+                            </form>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                          </div>
+                         </div>
+                        <div class="locazione">
+                          <span class="usaposizione">
+                            <img class="iconplace" src="img/posizione.png"></img>
+                          </span>
+                          <span class="text">Usa la mia posizione attuale</span>
+                        </div>
+                      </div>
+                 </div>
+                <div class="italia">
+                    <a class="colore"> Italiano</a>
+                    <i class="fa fa-caret-down" style="color:white"></i>
+                       <div class="minnie">
+                         <ul>
+                            <li class="lingue"><a>English</a></li>
+                            <li class="lingue"><a >Deuthsch</a></li>
+                            <li class="lingue"><a>Español</a></li>
+                            <li class="lingue"><a>Français</a></li>
+                            <li class="lingue"><a>简体中文</a></li>
+                         </ul>
+                       </div>
+                </div>
+                <div class="chiamata">
+                    <img class="icontelefono" src="img/Posizione-icona.png"></img>
+                    <a class="colore">+39 05575923333</a>
+                </div>
+            </div>
+            <div class="Centro">
+                <div class="logo">
+                   <img src="data:image/png;base64,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">
+                </div>
+            </div>    
+            <div class="Destra">
+                   <div class="login">
+                     <a class="colore"> Effettua il login</a>
+                      <div class="contenitore-login">
+                        <div class="scoprire">
+                          <div class="first-box"><p>Scopri una selezione personalizzata creata unicamente per te</p>
+                            <button id="puls">CREA UN ACCOUNT GUCCI</button>
+                          </div>                  
+                          <div class="second-box"><button id="pulsanteprincipale">EFFETTUA UN LOGIN</button></div>
+                        </div>
+                      </div>
+                  </div>
+                   <div class="cuore">
+                     <img class="iconcuore" src="img/cuore.png">
+                      <div class="preferito">
+                         <div class="selezionare"><a>Preferiti</a></div>
+                         <div class="nessun"><a>Nessun prodotto selezionato</a></div>
+                      </div>
+                   </div>
+                   <div class="carrello">
+                    <img class="iconcarrello" src="img/carrello.png">
+                    <a class="colore">Carrello</a>
+                     <div class="contenitore-carrello">
+                         <div class="acquisti">
+                           <div class="carrellovuoto"><a class="cart-title">Carrello</a></div>
+                           <div class="vuoto"><a class="cart-subtitle">Carrello Vuoto</a></div>
+                           <div class="first-box"><p>Scopri una selezione personalizzata creata unicamente per te</p>
+                             <button id="puls">CREA UN ACCOUNT GUCCI</button>
+                           </div>                  
+                           <div class="second-box"><button id="pulsanteprincipale">EFFETTUA UN LOGIN</button></div>
+                         </div>
+                     </div>
+                   <div class="cerca">
+                     <img class="iconsearch" src="img/serarch.png">
+                   </div>
+                  </div> 
+               </div>
+         </div>      
+        <div class="sotto">
+            <a href="https://www.gucci.com/it/it/st/what-new"><strong>WHAT'S NEW</strong></a>
+            <a href="https://www.gucci.com/it/it/ca/special/handbags-c-women-handbags-1"><strong>BORSE</strong></a>
+            <a href="https://www.gucci.com/it/it/ca/women-c-women"><strong>DONNA</strong></a>
+            <a href="https://www.gucci.com/it/it/ca/men-c-men"><strong>UOMO</strong></a>
+            <a href="https://www.gucci.com/it/it/st/capsule/mx-editorial-looks-grid"><strong>MX</strong></a>
+            <a href="https://www.gucci.com/it/it/ca/children-c-children"><strong>BAMBINO</strong></a>
+            <a href="https://www.gucci.com/it/it/ca/jewelry-watches-c-jewelry-watches"><strong>GIOIELLI E OROLOGI</strong></a>
+            <a href="https://www.gucci.com/it/it/ca/beauty-c-beauty"><strong>BEAUTY</strong></a>
+            <a href="https://www.gucci.com/it/it/st/decor-lifestyle"><strong>DÉCOR & LIFESTYLE</strong></a>
+            <a href="https://www.gucci.com/it/it/st/gifts"><strong>REGALI</strong></a>
+        </div>
+</header>  
+<body>
+  
+  <div class="carouselWrap">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+              <a class="michele">LA NUOVA COLLEZIONE DI ALESSANDRO MICHELE</a>
+              <a class="love">GUCCI LOVE PARADE</a>
+              <img src="https://media.gucci.com/content/HeroBigStandard_1600x760/1635440449/HeroBigStandard_Hollywood-LA-Video_001_Default.jpg" alt=""> 
+                   <div class="alinebotton">
+                     <button id="pulsante">SCOPRI DI PIU'</button>
+                   </div>
+            </div>
+            <div class="item">
+              <a class="donna">DONNA</a>
+              <a class="borse">BORSE</a>
+                <img src="https://media.gucci.com/content/HeroBigStandard_1600x760/1635354006/HeroBigStandard_Gucci-ARIA-2021-025-new-retouched_001_Default.jpg"
+                    alt="">
+                    <div class="donnabor">
+                      <button id="pulsantedue" >ACQUISTA</button>
+                    </div>
+            </div>
+            <div class="item">
+              <a class="novembre">DISPONIBILE A PARTIRE DAL 15 NOVEMBRE</a>
+              <a class="project">THE HACKER PROJECT</a>
+                <img src="https://media.gucci.com/content/HeroBigStandard_1600x760/1636036207/HeroBigStandard_GiftGiving21-TheHacker-Preview_001_Default.jpg"
+                    alt="">
+                    <div class="coniglio">
+                      <button id="pulsantetre">SCOPRI DI PIU'</button>
+                    </div>
+              </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<div class="contentgutter">
+  <div class="carouselborse">
+    <div id="myCarouseluno" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+              <a class="aria">GUCCI ARIA</a>
+              <a class="borsamarrone">Borsa a spalla GG Marmont misura piccola</a>
+              <img class="borsauno mx-auto" src="https://media.gucci.com/style/Transparent_Center_0_0_730x490/1629301506/447632_UM8BN_2754_001_067_0037_Light.png" alt=""> 
+              <div class="uno">
+                <button id="pulsantinouno">ACQUISTA</button>
+              </div>
+            </div>
+            <div class="item">
+              <a class="ariadue">GUCCI ARIA</a>
+              <a class="borsagrigia">Borsa a spalla GG Marmont misura piccola</a>
+                <img class="borsadue mx-auto"src="https://media.gucci.com/style/Transparent_Center_0_0_730x490/1629301504/446744_UM8AN_1711_001_055_0000_Light.png"alt="">
+                <div class="due">
+                  <button id="pulsantinodue">ACQUISTA</button>
+                </div>
+              </div>
+            <div class="item">
+              <a class="ariatre">GUCCI ARIA</a>
+              <a class="borsabeige">Borsa a spalla GG Marmont misura piccola</a>
+                <img class="borsatre mx-auto" src="https://media.gucci.com/style/Transparent_Center_0_0_730x490/1629873903/447632_UM8BN_9022_001_067_0032_Light.png" media="(min-width: 1024px)"
+                    alt="">
+                    <div class="tre">
+                      <button id="pulsantinotre">ACQUISTA</button>
+                    </div>
+              </div>
+              <div class="item">
+                <a class="borsanera">Mini borsa a spalla GG Marmont</a>
+                  <img class="borsaquattro mx-auto" class="black" src="https://media.gucci.com/style/Transparent_Center_0_0_730x490/1628009102/446744_UM8AN_1000_001_055_0016_Light.png"
+                      alt="">
+                      <div class="quattro">
+                        <button id="pulsantinoquattro">ACQUISTA</button>
+                      </div>
+                </div>
+        </div>
+        <a class="left carousel-control" href="#myCarouseluno" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarouseluno" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+    <img class="uomo" src="https://media.gucci.com/content/GiantEditorialStandard_1366x1643/1635354910/GiantEditorialStandard_Gucci-ARIA-FS-Look28_001_Default.jpg">
+    <div class="abiti">
+      <div class="giacche">
+        <img src="https://media.gucci.com/content/LightGray_Vignette_Standard_160x160/1635331530/Vignette_673899ZAHW86487_001_Light.jpg">
+        <p class="titolouno">Giacche</p>
+        <p class="copy">Alessandro Michele reinterpreta alcuni dei look più iconici di Tom Ford.</p>
+        <a class="link"href="https://www.gucci.com/it/it/ca/women/ready-to-wear-for-women/jackets-for-women-c-women-ready-to-wear-outerwear">ACQUISTA</a>
+      </div>
+  </div>
+  <div class="jeans">
+    <div class="pantaloni">
+      <img src="https://media.gucci.com/content/LightGray_Vignette_Standard_160x160/1635331531/Vignette_675762ZAH1H6487_001_Light.jpg">
+      <p class="titolodue">Pantaloni</p>
+      <p class="copyuno">Una combinazione di silhouette ispirate ai design di Tom Ford per Gucci.</p>
+      <a class="linkuno"href="https://www.gucci.com/it/it/ca/women/ready-to-wear-for-women/pants-and-shorts-for-women-c-women-readytowear-pants-and-shorts">ACQUISTA</a>
+    </div>
+</div>
+<div class="stivali">
+  <div class="scarpe">
+    <img src="https://media.gucci.com/content/LightGray_Vignette_Standard_160x160/1635331533/Vignette_679360UKQ001000_001_Light.jpg">
+    <p class="titolotre">Scarpe</p>
+    <p class="copydue">La nuova visione di femminilità include dettagli dall'allure glamour.</p>
+    <a class="linkdue"href="https://www.gucci.com/it/it/ca/women/shoes-for-women-c-women-shoes">ACQUISTA</a>
+  </div>
+</div>
+<div class="scrittura">
+<p class="gucciaria"> GUCCI ARIA </p>
+<p class="abbigliamentosotto">Abbigliamento</p>
+  
+</div>
+<div class="cinque">
+  <button id="pulsantinocinque">DONNA</button>
+  </div>
+</div>
+<div class="mocassino">
+    <div class="grigio">
+      <div classe="moccasinoweb">
+        <img src="https://media.gucci.com/content/DarkGray_ProductPush_Standard_700x700/1635330613/ProductPush_6555790G0P01460_001_Light.jpg">
+    </div>
+    </div>
+    <div class="uomoconweb">
+      <div class="scarpedue">
+        <img src="https://media.gucci.com/content/LightGray_Vignette_Standard_160x160/1635348603/Vignette_6555790G0P01460_001_Light.jpg">
+        <p class="titoloquattro">Mocassini</p>
+        <p class="copytre">Parte dell'eredità di Gucci,il mocassino evolve ogni stagione.</p>
+        <a class="linktre"href="https://www.gucci.com/it/it/ca/men/shoes-for-men/loafers-moccasins-for-men-c-men-shoes-moccasins-and-loafers">ACQUISTA</a>
+      </div>
+    </div>
+    <div class="scritturadue">
+      <p class="gucciariadue"> GUCCI ARIA </p>
+      <p class="mocassinosotto">Mocassino uomo con Web</p>
+    </div>
+      <div class="sei">
+        <button id="pulsantinosei">ACQUISTA</button>
+        </div>
+  </div>
+  <div class="contenuto">
+     <div class="loveparade">
+    <img src="https://media.gucci.com/content/HomepageVideoBackgroundStandard_1300x758/1636100137/HomepageVideoBackgroundStandard_Love-Parade-showspace-02_001_Default.jpg">
+     </div>
+  </div>
+  <div class="gucciloveparade">
+    <div class="parade">
+      <p class="titolocinque">Gucci Love Parade</p>
+      <p class="copyquattro">La nuova collezione di Alessandro Michele.</p>
+      <a class="linkquattro"href="https://www.gucci.com/it/it/st/love-parade-fashion-show-stories">SCOPRI DI PIÚ</a>
+    </div>
+  </div>
+<div class="stories">
+    <div class="celebrity">
+     <div class="finestre">
+      <p class="titolosei">STORIES</p>
+     </div> 
+     <div class="contephoto">
+      <div class="sinistrauno">
+        <div class="sinisopra"> <img src="https://media.gucci.com/content/StyleNewsSingle_Standard_340x202/1636131607/StyleNewsSingle_Love-Parade-showspace-01_001_Default.jpg"> <p class="titolosette">La presentazione di Gucci Love Parade</p> <a class="titolootto" href="https://www.gucci.com/it/it/st/stories/runway/article/love-parade-fashion-show-video">GUARDA LA SFILATA</a></div>
+        <div class="sinisotto"> <img src="https://media.gucci.com/content/StyleNewsSingle_Standard_340x202/1636120837/StyleNewsSingle_Love-Parade-gallery-guests_001_Default.jpg"> <p class="titolonove">Celebrities at Gucci Love Parade</p> <a class="titolodieci" href="https://www.gucci.com/it/it/st/stories/runway/article/love-parade-fashion-show-guests-gallery">ATTENDING THE SHOW</a></div>
+      </div>
+      <div class="centrale">
+        <img src="https://media.gucci.com/content/StyleNewsDoubleVertical_Standard_340x602/1635929154/StyleNewsDoubleVertical_Love-Parade-LOOK-01_001_Default.jpg"><p class="titoloundici">Love Parade: i look</p> <a class="titolododici" href="https://www.gucci.com/it/it/st/stories/runway/article/love-parade-fashion-show-looks-gallery">SCOPRI DI PIÙ</a>
+      </div>
+      <div class="destrauno">
+        <div class="destrasopra"> <img src="https://media.gucci.com/content/StyleNewsSingle_Standard_340x202/1636382704/StyleNewsSingle_beauty-nov-story_001_Default.jpg"><p class="titolotredici">Love Parade’s Beauty</p> <a class="titoloquattordici" href="https://www.gucci.com/it/it/st/stories/runway/article/love-parade-fashion-show-beauty-details">FACES OF THE SHOW</a></div>
+        <div class="destrasotto"> <img src="https://media.gucci.com/content/StyleNewsSingle_Standard_340x202/1636413313/StyleNewsSingle_Love-Parade-Details_001_Default.jpg"><p class="titoloquindici">Dispatch from the Dream Factory</p> <a class="titolosedici" href="https://www.gucci.com/it/it/st/stories/runway/article/love-parade-fashion-show-details">ABOUT LOVE PARADE</a></div>
+      </div>
+    </div>
+    </div>
+</div>
+
+ 
+
+<footer class="footer">
+      <div class="finale">
+        <div class="fine">
+          <div class="servizi">
+            <div class="esclusivi">SERVIZI ESCLUSIVI</div>
+            <a href="https://www.gucci.com/it/it/st/capsule/gifts-services">
+            <img src="img/regalo.png">Servizi Online Esclusivi</a>
+            <a><img src="img/email.png"> Spedizione e resi gratuiti</a>
+            <a href="https://www.gucciosteria.com/en">
+            <img src="img/table.png">Gucci Osteria da Massimo Bottura</a>
+            <a href="https://www.gucci.com/it/it/st/capsule/book-an-appointment">
+            <img src="img/regalo.png">Prenota Un Appuntamento</a>
+        </div>
+
+         <div class="aiuto">
+           <div class="helping">POSSIAMO AIUTARTI?</div>
+           <a href="https://www.gucci.com/it/it/st/faq">Domande Frequenti</a>
+           <a href="https://www.gucci.com/it/it/st/contact-us">Contattaci</a>
+           <a href="https://www.gucci.com/it/it/newsletters/unsubscribe">Disiscrizione Newsletter</a>
+           <a href="https://www.gucci.com/it/it/st/faq#payment">Pagamento</a>
+           <a href="https://www.gucci.com/it/it/st/faq#shipping-and-delivery">Spedizione</a>
+           <a href="https://www.gucci.com/it/it/st/faq#returns-and-exchanges">Resi & Cambi</a>
+           <a href="https://www.gucci.com/it/it/st/faq#Gifts">Regali Aziendali</a>
+           <a href="https://www.gucci.com/it/it/st/faq#care-and-repair">Cura del Prodotto</a>
+           <a href="https://www.gucci.com/it/it/st/sitemap">Mappa del sito</a>
+         </div>
+         <div class="info">
+           <div class="azienda">INFORMAZIONI AZIENDALI</div>
+           <a href="https://www.gucci.com/it/it/st/about-gucci">Gucci</a>
+           <a href="https://www.gucci.com/it/it/store/gucci-garden">Gucci Garden</a>
+           <a href="https://equilibrium.gucci.com/?utm_medium=gucci.com&utm_source=gucci.com_it&utm_campaign=equilibrium_launch_june20&utm_content=footer">Gucci Equilibrium</a>
+           <a href="https://www.gucci.com/it/it/st/code-ethics">Codice etico</a>
+           <a href="https://careers.gucci.com/">Lavora con noi</a>
+           <a href="https://www.gucci.com/it/it/st/legal-landing">Area Legale</a>
+           <a href="https://www.gucci.com/it/it/st/privacy-landing">Privacy & Cookie Policy</a>
+           <a href="https://www.gucci.com/it/it/st/corporate-information">Informazioni Societarie</a>
+         </div>
+         <div class="social">
+           <div class="segui">SEGUICI SU</div>
+           <a href="https://www.facebook.com/GUCCI/">
+           <img src="img/facebook.png">Facebook</a>
+           <a href="https://twitter.com/gucci">
+           <img src="img/twitter.png">Twitter</a>
+           <a href="https://www.instagram.com/gucci/">
+           <img src="img/instagram.png">Instagram</a>
+           <a href="https://www.instagram.com/gucci/">
+           <img src="img/instagram.png">Instagram Beauty</a>
+           <a href="https://www.youtube.com/c/gucci">
+           <img src="img/youtube.png">Youtube</a>
+           <a href="https://plus.google.com/117338484400239480369/posts">
+           <img src="img/google+.png">Google+</a>
+           <a href="https://www.pinterest.it/gucci/">
+           <img src="img/pinterest.png">Pinterest</a>
+         </div>
+         <div class="registrati">
+           <div class="newsletter">REGISTRATI ALLA NEWSLETTER GUCCI</div>
+           <p>
+            Inserendo il tuo indirizzo e-mail, acconsenti a ricevere le newsletter Gucci relative alle ultime collezioni, agli eventi e alle campagne del brand. Per maggiori informazioni consulta la nostra
+           <a href="https://www.gucci.com/it/it/st/privacy-landing">Informativa a tutela della privacy.</a></p>
+                <form>
+                <input 
+                  id="mail" 
+                  type="text" 
+                  placeholder="Indirizzo Mail">
+                </form>
+              <div class="ricerca">RICERCA NEGOZIO</div>
+              <img class="iconapos" src="img/image2.png">
+                <form>
+                 <input 
+                  id="inserisci" 
+                  type="text" 
+                  placeholder="   Paese,Regione,città"> 
+               </form>
+        </div>
+        </div>
+      <div class="indirizzo">
+          <p>© 2016 - 2020 Guccio Gucci S.p.A. - Tutti i Diritti Riservati. G Commerce Europe S.p.A. - IT VAT nr 05142860484. LICENZA SIAE N. 2294/I/1936 e 5647/I/1936</p>
+      </div>
+      <div class="loghi">
+            <a href="https://equilibrium.gucci.com/?utm_medium=gucci.com&utm_source=gucci.com_it&utm_campaign=equilibrium_launch_june20&utm_content=logo">
+            <img class="equilibrio"src="img/equilibrium.png"></a>
+           
+            <img class="gucci" src="img/gucci-app.png">
+            <img class="guccihover" src="img/gucci-app-hover.png">
+           
+            <a href="https://www.gucci.com/it/it/st/capsule/gucci-garden">
+            <img class="garden"src="img/garden.png"></a>
+      </div>
+      </div>
+</footer>
+
+
+</body>
+
+  
+</html>
