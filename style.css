@@ -1,0 +1,3604 @@
+
+ .iconluogo {
+	 width: 11px;
+	 height:12px;
+	 color:#e5dfd9;
+	 opacity:.5;
+	 margin-left: 12px;
+	 margin-top: -2px;
+}
+ .icontelefono {
+	width: 11px;
+	 height:12px;
+	 color:#e5dfd9;
+	 opacity:.5;
+ }
+ .contenitore{
+	 background-color:  #1b1b1b;
+	 display:flex;
+	 justify-content:space-between;
+	 height: 100px;
+	 margin-right: 0px;
+     margin-left: 0px;
+	
+ }
+ a {
+	 text-decoration: none;
+	 font-family: Futura,Helvetica,Arial,sans-serif;
+}
+.italiano{
+	color:#e5dfd9;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+}
+.italia:hover .minnie{
+	display:block;
+}
+.italia{
+	margin-right: 2%;
+	cursor: pointer;
+}
+.colore{
+	color:#e5dfd9;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	font-size: 12px;
+}
+.lingue{
+	list-style-type: none;
+    background-color: white;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: #4b4b4b;
+    display: block;
+    font-size: 11px;
+    line-height: 14px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    position: relative;
+	padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+	border-bottom: 1px solid #e7e7e7;
+	width: 88px;
+}
+.logo{
+	color:white;
+	font: Futura,Helvetica,Arial,sans-serif;
+	font-size: 30px;
+	display:flex;
+	justify-content: center;
+	background-color:  #1b1b1b;
+}
+.minnie{
+    display:none;
+	position: absolute;
+	left: 3px;
+	z-index: 1;
+	top: 50px;
+	
+}
+
+.logo{
+	height:26px;
+   margin-top: 24px;
+}
+.iconcuore{
+	width: 11px;
+    height: 12px;
+    color: #e5dfd9;
+    opacity: .5;
+    margin-left: 18px;
+    margin-top: -1px;
+    position: relative;
+}
+
+.iconcarrello{
+    width: 11px;
+    height: 12px;
+    color: #e5dfd9;
+    opacity: .5;
+    margin-left: 17px;
+    margin-top: -1px;
+    margin-right: 2px;
+	
+}
+#iconsearch{
+	width: 30px;
+	height: 35px;
+	color: #e5dfd9;
+	opacity: .5;
+    margin-right: 32px;
+    margin-left: 28px;
+}
+
+.Destra{
+		display: flex;
+		width: 45%;
+		margin-top: 20px;
+		justify-content: right;
+		font-family: Futura,Helvetica,Arial,sans-serif;
+		margin-right: 6px;
+		cursor: pointer;
+	}
+.Sinistra{
+		display: flex;
+		width: 45%;
+		margin-top: 20px;
+		justify-content: left;
+		font-family: Futura,Helvetica,Arial,sans-serif;
+		margin-left: 6px;
+	}
+.menusotto  {
+	display:flex;
+	font-size: 11px;
+	justify-content:space-evenly;
+	padding: 6px 160px;
+	padding-bottom: 13px;
+	letter-spacing: 1px;
+	font-variant-ligatures:none;
+	color:#e5dfd9;
+	background-color: #1b1b1b;
+	cursor: pointer;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	margin-right: -71px;
+	position:fixed;
+	justify-content: space-between;
+	position:fixed;
+	top:91px;
+	width:-webkit-fill-available;
+	z-index: 10;
+	list-style-type: none;
+}
+.sotto a {
+	text-decoration: none;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color:#e5dfd9 !important;
+}
+	
+
+.shopping{
+	display:none;
+	background-color:white ;
+	cursor: auto;
+	position: absolute;
+	margin-left:20px;
+	top:50px;
+	z-index: 1;
+}
+.italia:hover .shopping{
+	display:block;
+	list-style-type: none;
+    background-color: white;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: #4b4b4b;
+    font-size: 11px;
+    line-height: 14px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+	padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+	position: absolute;
+	width: 287px;
+}
+.scegliere{
+	line-height: 30px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    color: #666;
+	cursor: pointer;
+	
+}
+.scegliere a{
+	line-height: 30px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    color: #666;
+	font-family:Futura,Helvetica,Arial,sans-serif;
+	cursor: pointer;
+}
+.paese{
+	float: right;
+    padding: 0 15px;
+    border-left: 1px solid #e7e7e7;
+    text-align: right;
+	cursor: pointer;
+}
+.iconplace{
+    cursor: pointer;
+    display: inline;
+    top: 2px;
+    position: relative;
+    width: 11px;
+	height:12px;
+	color:#e5dfd9;
+}
+.locazione{
+	cursor: pointer;
+	color: #999;
+    font-size: 11px;
+}
+.search{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+	position:relative;
+    top: 17px;
+    height: 50%;
+    width: auto;
+}
+#ftr-store-location{
+    color: #999;
+    font-weight: 400;
+    border-radius: 0;
+    font-size: 12px;
+    height: 38px;
+    letter-spacing: 1px;
+    width: 80%;
+    border: none;
+    background-color: #f4f4f4;
+	font-family:Futura,Helvetica,Arial,sans-serif; 
+	margin-top: 10px;
+	margin-right: 20px;
+	padding: 0px 8px 0px 8px;
+}
+.preferito{
+	display:none;
+	background-color: white;
+	right: 114px;
+	top:50px;
+	position: absolute;
+	z-index: 1;
+}
+.cuore:hover .preferito{
+	display:block;
+	list-style-type: none;
+    background-color: white;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: #4b4b4b;
+    font-size: 11px;
+    line-height: 14px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    position: relative;
+	padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+	position: absolute;
+	
+}
+.selezionare{
+	box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 1px solid #e7e7e7;
+    color: #4b4b4b;
+    font-size: 16px;
+    height: 41px;
+    line-height: 22px;
+    padding: 10px 0 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    width: 243px;
+    z-index: 1;
+	cursor: auto;
+}
+.nessun{
+	color: #999;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    cursor: default;
+}
+.scoprire{
+	display:none;
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:white;
+	text-align: center;
+	top: 50px;
+	left: 798px;
+	z-index: 1;
+	}
+.login:hover .scoprire{
+	box-sizing: border-box;
+	opacity: 1;
+	font-variant-ligatures: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	width: 300px;
+	border-width: 1px 2px 1px 2px;
+    border-style: solid;
+    border-color: white;
+	position: absolute;
+}
+
+.carrello:hover .acquisti{
+	display:block;
+	background-color: white;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	position: absolute;
+	width: 300px;
+	border-width: 1px 2px 1px 2px;
+    border-style: solid;
+    border-color: white;
+	position: absolute;
+	border-width: 1
+
+}
+
+.shopper{
+	display:none;
+	cursor: auto;
+	top:50px;
+	right:60px;
+	padding:21px 0px; 
+
+}
+.carrellovuoto{
+	color: #4b4b4b;
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+    text-align: center;
+    cursor: default;
+	background-color: white;
+	margin-top: 20px;
+	
+}
+.vuoto{
+	color: #4b4b4b;
+    font-size: 16px;
+    height: 41px;
+    line-height: 22px;
+    position: relative;
+    text-align: center;
+    cursor: default;
+	background-color: white;
+	
+}
+.contenitore-search{
+	position:relative;
+}
+i.fa.fa-search {
+    position: absolute;
+    top: 24px;
+    right: 69px;
+}
+.second-box{
+	background-color: white;
+    padding: 21px 0px;
+	width: 296px;
+}
+.first-box{
+background-image:url("https://media.gucci.com/content/MenuFlyoutMedium_2048x360/1627318806/MenuFlyoutMedium_fucsia-UPDATE_001_Default.jpg");
+padding: 21px 0px;
+	cursor: auto;
+
+}
+#puls{
+    background-color: #fff;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+	width: 256px;
+	height: 41px;
+	margin-top: 33px;
+}
+.acquisti{
+	display:none;
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:white;
+	text-align: center;
+	width: 100px;
+	top: 50px;
+	right:62px;
+	position: absolute;
+	z-index: 1;
+	cursor: auto;
+	}
+.alinebotton {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    right: 42%;
+}
+#pulsante{
+	background-color: #1b1b1b;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    border-color: #1b1b1b;
+}
+.immagine1{
+	position: relative;
+}
+.button{
+	position:relative;
+}
+.figura1{
+
+	object-fit: cover;
+}
+body{
+	overflow-x: hidden;
+	margin: 0;
+
+}
+#pulsanteprincipale{
+	background-color: #1b1b1b;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    width: 256px;
+	height: 41px;
+
+}
+.cart-subtitle{
+	font-size: 12px;
+	color: #999;
+}
+.footer{
+	background-color:#1b1b1b;
+	margin-left: 0px;
+	margin-top: 15px;
+	margin-right: -12px;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+    height: 496px;
+	position: absolute;
+  
+}
+.finale{
+	display: flex;
+	flex-direction: column;
+}
+.info{
+	display: flex;
+    flex: 1;
+    color: #e5dfd9;
+    font-size: 10px;
+    margin-top: 36px;
+    flex-direction: column;;
+}
+.azienda a {
+	color: #e5dfd9;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    line-height: 28px;
+    position: relative;
+    
+}
+.fine{
+	display: flex;
+	align-items: flex-start;
+}
+
+.indirizzo{
+	display: flex;
+    color: #e5dfd9;
+    position: relative;
+    bottom: -62px;
+    font-size: 12px;
+	left: 70px;
+
+}
+.loghi{
+	color: #e5dfd9;
+	
+}
+/* .footersinistra img{
+	width: 20px;
+	height: auto;
+	color:black;
+} */
+.iconapos {
+	
+ position: absolute;
+ left: -7px;
+ bottom: 8px;
+}
+
+.wehelp  a{
+	color:#e5dfd9;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    line-height: 28px;
+    position: relative;
+   
+   
+}
+.azienda{
+	
+	font-size: 13px;
+    color: #999;
+    margin-bottom: 32px;
+    margin-left: 44px;
+    margin-top: 38px;
+    width: 37%;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+
+}
+.social{
+	font-size: 13px;
+    color: #999;
+    margin-bottom: 32px;
+
+flex-direction: column;
+display:flex;
+}
+
+.footersinistra img{
+	width: 13px;
+    height: 13px;
+    margin-left: 12px;
+    margin-right: 8px;
+	margin-top: -3px;
+} 
+
+
+.serviziesclusivi img{
+	width: 13px;
+    height: 13px;
+    margin-left: 12px;
+    margin-right: 8px;
+	margin-top: -3px;
+}
+.segui img{
+	width: 13px;
+    height: 13px;
+    margin-left: 12px;
+    margin-right: 8px;
+	margin-top: -3px;
+}
+.segui a{
+	color: #e5dfd9;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+     position: relative;
+    line-height: 28px;
+    
+   
+
+	
+}
+.segui{
+	font-size: 13px;
+    color: #999;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    width: 27%;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+
+}
+.newsletter{
+	font-size: 13px;
+    margin-bottom: 32px;
+    margin-left: 0px;
+    margin-top: 47px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    text-transform: uppercase;
+}
+.registrati{
+    color: #999;
+    font-size: 11px;
+    margin-right: 36px;
+    padding-left: 40px;
+
+}
+.registrati a{
+	text-decoration:underline;
+	color:#999;
+	font-size: 11px;	
+	font-weight: 400;
+}
+#mail{
+	background-color:black;
+	color:#e5dfd9;
+    font-weight: 400;
+    border-radius: 0;
+    font-size: 12px;
+    height: 28px;
+    letter-spacing: 1px;
+    width: 170px;
+    border: none;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+	margin-right: 20px;
+    padding: 0px 10px;
+	margin-top: 13px;
+	margin-bottom: 50px;
+}
+#inserisci{
+	background-color:black;
+	color:#e5dfd9;
+    font-weight: 400;
+    border-radius: 0;
+    font-size: 12px;
+    height: 28px;
+    letter-spacing: 1px;
+    width: 170px;
+    border: none;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+	margin-right: 20px;
+    padding: 0px 10px;
+	
+	
+	
+
+}
+.servizi{
+    color: #e5dfd9;
+    font-size: 10px;
+    margin-top: 36px;
+    
+    line-height: 26px;
+    position: relative;
+    
+
+}
+.serviziesclusivi a {
+    color:#e5dfd9;
+    font-size: 11px;    
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    line-height: 28px;
+    position: relative;
+	text-decoration:none;
+ 
+    
+}
+.serviziesclusivi {
+    font-size: 13px;
+    color: #999;
+    margin-top: 38px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    flex-direction: column;
+    display: flex;
+    padding-left: 50px;
+    width: 45%;
+     
+}
+.servizi img{
+    width: 13px;
+    height:13px;
+    color:#999;
+    opacity:.5;
+    margin-left: 12px;
+    margin-right: 8px;  
+    margin-top: -4px;
+
+}
+.ricerca{
+	text-decoration: none;
+    font-size: 13px;
+    color: #999;
+    margin-left: 0px;
+    margin-top: -14px;
+    margin-bottom: 6px;
+}
+
+.equilibrio{
+	width: 60px;
+    margin-left: 832px;
+    margin-top: -40px;
+    margin-right: 27px;
+}
+.gucci{
+	margin-right: 27px;
+	width: 52px;
+	margin-top: -40px;
+	cursor:pointer;
+	opacity: 0.5;
+	
+}
+.garden{
+	height: 32px;
+    width: 61px;
+    margin-top: -40px;
+    opacity: 0.5;
+}
+ .gucci:hover + .guccihover{
+display: inline-block;
+margin-right: 27px;
+width: 52px;
+margin-top: -40px;
+cursor:pointer;
+opacity: 0.5; 
+ 
+}
+.guccihover{
+	
+display:none;
+}
+.gucci:hover{
+display:none;
+	
+}
+a {
+	text-decoration: none !important;
+  }
+.colore:hover{
+	color: white;
+}
+.shopping:hover{
+	color:#666;
+}
+.minnie a{
+	color: #666;
+}
+.shopping a{
+	color:#1b1b1b;
+}
+.preferito a {
+	color: #666;
+}
+.carrellovuoto a{
+	color: #666;
+}
+.carouselborse{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right:16px;
+	text-align:left;
+	padding-bottom:15px;
+	padding-top:15px;
+	position: relative;
+	background: #fff;
+}
+
+#pulsante{
+background-color: #1b1b1b;
+font-family: Futura,Helvetica,Arial,sans-serif;
+color: white;
+padding: 10px 30px;
+cursor: pointer;
+border: none;
+border-color: #1b1b1b;
+}
+.michele{
+	position: absolute;
+    z-index: 13;
+    top: 212px;
+    left: 313px;
+    font-size: 18px;
+    color: #fff;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	letter-spacing: 5px;
+}
+.michele:hover{
+	color:#fff;
+}
+/* .carousel-inner {
+    position: relative;
+  
+    width: 1408px;
+    height: 615px;
+    overflow: hidden;
+} */
+.love{
+	position: absolute;
+    z-index: 13;
+    top: 243px;
+    left: 224px;
+    font-size: 71px;
+    color: #fff;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    letter-spacing: 4px;
+}
+.love:hover{
+	color:#fff;
+
+}
+.alinebotton {
+    position: absolute;
+    top: 57%;
+    bottom: 0;
+    right: 44%;
+}
+.donna{
+	position: absolute;
+    z-index: 13;
+    top: 212px;
+    left: 593px;
+    font-size: 18px;
+    color: #fff;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	letter-spacing: 5px;
+}
+.borse{
+	position: absolute;
+    z-index: 13;
+    top: 243px;
+    left: 513px;
+    font-size: 71px;
+    color: #fff;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    letter-spacing: 4px;
+}
+.donnabor{
+	position: absolute;
+    top: 57%;
+    bottom: 0;
+    right: 44%;
+}
+
+#pulsantedue{
+	background-color: #1b1b1b;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: none;
+	border-color: #1b1b1b;
+	}
+
+.donna:hover{
+	color:#fff;
+}
+.borse:hover{
+	color:#fff;
+}
+.coniglio{
+	position: absolute;
+    top: 57%;
+    bottom: 0;
+    right: 44%;
+}
+#pulsantetre{
+	background-color: #1b1b1b;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: none;
+	border-color: #1b1b1b;
+
+}
+.novembre{
+	position: absolute;
+    z-index: 13;
+    top: 212px;
+    left: 363px;
+    font-size: 18px;
+    color: #fff;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	letter-spacing: 5px;
+}
+.project{
+	position: absolute;
+    z-index: 13;
+    top: 243px;
+    left: 188px;
+    font-size: 71px;
+    color: #fff;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    letter-spacing: 4px;
+}
+.novembre:hover{
+	color:#fff;
+}
+.project:hover{
+	color:#fff;
+}
+.contentgutter{
+
+    padding-left: 15px ;
+    padding-right: 15px;
+    background: #fff;
+    position: relative;
+	
+}
+
+.borsauno{
+	margin: 0 auto;
+	
+} 
+.borsadue{
+	margin: 0 auto;
+}
+.borsatre{
+	margin: 0 auto;
+}
+.borsaquattro{
+	margin: 0 auto;
+}
+
+.carouselborse{
+	background-color:#e7e7e7;
+
+}
+.carousel-control.left{
+	background: transparent;
+}
+.carousel-control.right{
+	background: transparent;
+}
+.aria{
+    position: absolute;
+    z-index: 13;
+    top: 477px;
+    left: 565px;
+ font-size: 13px;
+ color: #313131;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
+
+}
+.borsamarrone{
+
+position: absolute;
+z-index: 13;
+	top: 507px;
+	left: 288px;
+		font-size: 29px;
+		color: #313131;
+		font-family: Futura,Helvetica,Arial,sans-serif;
+		letter-spacing: 3px;
+}
+.borsamarrone:hover{
+	color: #313131;
+}
+.aria:hover{
+	color: #313131;
+}
+
+.uno{	
+	position: absolute;
+    top: 115%;
+    bottom: 0;
+    right: 45%;
+}
+#pulsantinouno{
+	background-color: #1b1b1b;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: none;
+	border-color: #1b1b1b;
+	}
+.ariadue{
+	position: absolute;
+    z-index: 13;
+    top: 483px;
+    left: 584px;
+ font-size: 13px;
+ color: #313131;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
+}
+.ariadue:hover{
+	color: #313131;
+}
+.borsagrigia{
+	position: absolute;
+z-index: 13;
+	top: 507px;
+	left: 294px;
+		font-size: 29px;
+		color: #313131;
+		font-family: Futura,Helvetica,Arial,sans-serif;
+		letter-spacing: 3px;
+}
+.borsagrigia:hover{
+	color: #313131;
+}
+
+.due{
+	position: absolute;
+    top: 115%;
+    bottom: 0;
+    right: 45%;
+}
+#pulsantinodue{
+	background-color: #1b1b1b;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: none;
+	border-color: #1b1b1b;
+
+}
+.ariatre{
+	position: absolute;
+    z-index: 13;
+    top: 483px;
+    left: 584px;
+ font-size: 13px;
+ color: #313131;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
+
+}
+.ariadue:hover{
+	color: #313131;
+}
+.borsabeige{
+	position: absolute;
+z-index: 13;
+	top: 507px;
+	left: 292px;
+		font-size: 29px;
+		color: #313131;
+		font-family: Futura,Helvetica,Arial,sans-serif;
+		letter-spacing: 3px;	
+}
+.borsabeige:hover{
+	color: #313131;
+}
+.tre{
+	position: absolute;
+    top: 115%;
+    bottom: 0;
+    right: 45%;
+}
+#pulsantinotre{
+	background-color: #1b1b1b;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: none;
+	border-color: #1b1b1b;
+}
+.borsanera{
+	position: absolute;
+	z-index: 13;
+		top: 507px;
+		left: 366px;
+			font-size: 29px;
+			color: #313131;
+			font-family: Futura,Helvetica,Arial,sans-serif;
+			letter-spacing: 3px;	
+}
+.borsanera:hover{
+	color: #313131;
+}
+.quattro{
+	position: absolute;
+    top: 115%;
+    bottom: 0;
+    right: 45%;	
+}
+#pulsantinoquattro{
+	background-color: #1b1b1b;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: none;
+	border-color: #1b1b1b;
+
+}
+.uomo{
+		height: 100%;
+		width: 100%;
+		
+}
+
+.giacche img{
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    margin-top: -15px;
+    margin-left: 25px;
+	background-image:none;
+}
+
+
+.giacche{
+	width: 185px;
+	height: 325px;
+	background: #f5f5f5;
+	padding: 52px 30px 20px 30px;
+    margin-top: -28px;
+	
+}
+.abiti{
+	z-index: 7;
+    position: relative;
+    margin-left: 981px;
+    margin-top: -1415px;
+}
+span .giacche{
+	text-align: center;
+}
+.giacche .titolouno{
+	font-weight: 200;
+    font-style: normal;
+    color: #1b1b1b;
+    font-size: 20px;
+    margin-bottom: 20px;
+	text-align: center;
+}
+.giacche .copy{
+	font-family: Times New Roman,"Times New Roman",Times,Baskerville,Georgia,serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4em
+}
+.link{
+	display: block;
+    position: relative;
+    color: #1b1b1b;
+	text-align: center;
+}
+.link:hover{
+	color: #1b1b1b;
+}
+.jeans{
+	z-index: 7;
+    position: relative;
+    margin-left: 52px;
+    margin-top: 304px;
+}
+.pantaloni{
+	width: 185px;
+	height: 325px;
+	background: #f5f5f5;
+	padding: 52px 30px 20px 30px;
+    margin-top: -28px;
+}
+.pantaloni .titolodue{
+		font-weight: 200;
+		font-style: normal;
+		color: #1b1b1b;
+		font-size: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+}
+.pantaloni .copyuno{
+font-family: Times New Roman,"Times New Roman",Times,Baskerville,Georgia,serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4em
+}
+.linkuno{
+	display: block;
+    position: relative;
+    color: #1b1b1b;
+	text-align: center;
+}
+.linkuno:hover{
+	color: #1b1b1b;
+}
+.pantaloni img{
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    margin-top: -15px;
+    margin-left: 25px;
+	background-image:none;
+
+}
+.stivali{
+	z-index: 7;
+    position: relative;
+	margin-left: 981px;
+    margin-top: 111px;
+}
+.scarpe{
+	width: 185px;
+	height: 325px;
+	background: #f5f5f5;
+	padding: 52px 30px 20px 30px;
+    margin-top: -28px;	
+}
+.scarpe .titolotre{
+	font-weight: 200;
+	font-style: normal;
+	color: #1b1b1b;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.scarpe .copydue{
+	font-family: Times New Roman,"Times New Roman",Times,Baskerville,Georgia,serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4em
+}
+.linkdue{
+	display: block;
+    position: relative;
+    color: #1b1b1b;
+	text-align: center;
+}
+.linkdue:hover{
+	color: #1b1b1b;	
+}
+.stivali img{
+		margin-bottom: 20px;
+		width: 80px;
+		height: 80px;
+		margin-top: -15px;
+		margin-left: 25px;
+		background-image:none;
+	
+
+}
+.gucciaria{
+	font-size: 12px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    text-transform: uppercase;
+	text-align: center;
+	margin-top:70px;
+}
+.abbigliamentosotto{
+	font-size: 36px;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: capitalize;
+	text-align: center;
+
+}
+.scrittura{
+	
+	background-color:#e7e7e7;
+	padding-bottom: 73px;
+}
+.cinque{
+	position: absolute;
+    top: 97%;
+    bottom: 0;
+    right: 45%;	
+	background-color:#e7e7e7;
+}
+#pulsantinocinque{
+	background-color: #1b1b1b;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: none;
+	border-color: #1b1b1b;
+}
+.mocassino{
+	padding-left: 15px ;
+    padding-right: 15px;
+    background: #fff;
+    position: relative;
+	margin-top:1px;
+	
+}
+.grigio img{
+	height: 695px;
+    max-width: 100%;
+    position: relative;
+	margin-left: 258px;
+	margin-bottom: 144px;
+}
+.grigio{
+	background-color: #e7e7e7;
+}
+.uomoconweb{
+	z-index: 7;
+    position: relative;
+	margin-left: 981px;
+    margin-top: 111px;
+}
+.scarpedue{
+	width: 185px;
+	height: 325px;
+	background: #f5f5f5;
+	padding: 52px 30px 20px 30px;
+    margin-top:-720px;
+}
+.uomoconweb img{
+	margin-bottom: 20px;
+	width: 80px;
+	height: 80px;
+	margin-top: -15px;
+	margin-left: 25px;
+	background-image:none;
+}
+.scarpedue .titoloquattro{
+	font-weight: 200;
+	font-style: normal;
+	color: #1b1b1b;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.scarpedue .copytre{
+	font-family: Times New Roman,"Times New Roman",Times,Baskerville,Georgia,serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4em
+}
+.linktre{
+	display: block;
+    position: relative;
+    color: #1b1b1b;
+	text-align: center;
+}
+.linktre:hover{
+	color:#1b1b1b;
+}
+.scritturadue{
+		
+	color: #313131;
+    margin-top: 0;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+.gucciariadue{
+	font-size: 12px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    text-transform: uppercase;
+	text-align: center;
+	margin-top:70px;
+}
+.mocassinosotto{
+	font-size: 36px;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: capitalize;
+	text-align: center;
+
+}
+.sei{
+	position: absolute;
+    top: 104%;
+    bottom: 0;
+    right: 45%;	
+	background-color:#e7e7e7;
+}
+#pulsantinosei{
+	background-color: #1b1b1b;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: none;
+	border-color: #1b1b1b;
+
+
+}
+.contenuto img{
+	display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+	
+}
+.contenuto{
+	padding-left: 15px ;
+    padding-right: 15px;
+    background: #fff;
+    position: relative;
+	margin-top: 137px;
+}
+.gucciloveparade{
+	z-index: 7;
+    position: relative;
+	margin-left: 981px;
+    margin-top: 111px;
+}
+.parade{
+	width: 185px;
+		height: 293 px;
+		background: #f5f5f5;
+		padding: 52px 30px 46px 30px;
+		margin-top: -643px;
+		margin-left: -438px;
+}
+.gucciloveparade .titolocinque{
+	font-weight: 200;
+	font-style: normal;
+	color: #1b1b1b;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.gucciloveparade .copyquattro{
+	font-family: Times New Roman,"Times New Roman",Times,Baskerville,Georgia,serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4em
+
+}
+.linkquattro{
+	display: block;
+    position: relative;
+    color: #1b1b1b;
+	text-align: center;
+	margin-top: 55px;
+}
+.linkquattro:hover{
+	color:#1b1b1b;
+}
+.stories{
+    padding-left: 15px ;
+    padding-right: 15px;
+    background: #fff;
+    position: relative;
+}
+.celebrity{
+    text-align: center;
+    background-color: #e7e7e7;
+    margin-top: 226px;
+	height: 1053px;
+    }
+
+.titolosei{
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
+    text-transform: uppercase;
+    position: relative; 
+	top: 91px;
+
+}
+.finestre{
+border-bottom: 1px solid #1b1b1b;
+    color: #1b1b1b;
+    height: 133px;
+    line-height: 21px;
+    position: relative;
+    text-align: center;
+    width: 148px;
+    margin-left: 540px;
+}
+
+.contephoto{
+	display: flex;
+}
+.sinistrauno{
+	display:flex;
+	flex-direction: column;
+}
+.destrauno{
+	display:flex;
+	flex-direction: column;
+}
+.sinisopra{
+	padding:83px 49px 65px 25px;
+}
+.sinisotto{
+	padding:0px 49px 65px 25px;
+}
+.destrasotto{
+	padding:0px 55px 67px 46px;
+}
+.destrasopra{
+	padding:83px 55px 67px 46px;
+}
+
+.centrale{
+	padding: 83px 35px;
+}
+.titolosette{
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 2em;
+    min-height: 40px;
+    line-height: 20px;
+    text-transform: none;
+    color: initial;
+}
+.titolootto{
+	color: #999;
+	font-weight: 400;
+    font-style: normal;
+    color: #313131;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 12px;
+    position: relative;
+    text-transform: uppercase;
+	cursor:pointer;
+}
+.titolootto:hover{
+	color: #999;
+}
+.titolonove{
+	font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 2em;
+    min-height: 40px;
+    line-height: 20px;
+    text-transform: none;
+    color: initial;
+}
+.titolodieci{
+	color: #999;
+	font-weight: 400;
+    font-style: normal;
+    color: #313131;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 12px;
+    position: relative;
+    text-transform: uppercase;
+	cursor:pointer;
+
+}
+.titolonove:hover{
+	color:initial;
+}
+.titolodieci:hover{
+	color: #999;
+}
+.titoloundici{
+	font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 2em;
+    min-height: 40px;
+    line-height: 20px;
+    text-transform: none;
+    color: initial;
+}
+.titoloundici:hover{
+	color: initial;
+}
+.titolododici{
+	color: #999;
+	font-weight: 400;
+    font-style: normal;
+    color: #313131;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 12px;
+    position: relative;
+    text-transform: uppercase;
+	cursor:pointer;
+}
+.titolododici:hover{
+	color: #999;
+}
+.titolotredici{
+	font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 2em;
+    min-height: 40px;
+    line-height: 20px;
+    text-transform: none;
+    color: initial;
+
+}
+.titolotredici:hover{
+	color: initial;
+}
+.titoloquattordici{
+	color: #999;
+	font-weight: 400;
+    font-style: normal;
+    color: #313131;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 12px;
+    position: relative;
+    text-transform: uppercase;
+	cursor:pointer;
+}
+.titoloquattordici:hover{
+	color: #999;
+}
+.titoloquindici{
+	font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 2em;
+    min-height: 40px;
+    line-height: 20px;
+    text-transform: none;
+    color: initial;
+
+}
+.titoloquindi:hover{
+	color: initial;
+}
+.titolosedici{
+	color: #999;
+	font-weight: 400;
+    font-style: normal;
+    color: #313131;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 12px;
+    position: relative;
+    text-transform: uppercase;
+	cursor:pointer;
+}
+.titolosedici:hover{
+	color: #999;
+}
+.header{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	padding:20px 10px;
+	position:fixed;
+	top:0px;
+	width:-webkit-fill-available;
+	z-index: 10;
+}
+.contenitore{
+	background-color: #1b1b1b;
+	display: flex;
+	justify-content: space-between;
+	position:fixed;
+	top:0px;
+	width:-webkit-fill-available;
+	z-index: 14;
+	overflow: visible;
+}
+
+	
+.form-input.invalid-field{
+background-color: #1b1b1b;
+
+
+}
+#email-updates {
+	background-color: black;
+    color: #e5dfd9;
+    font-weight: 400;
+    border-radius: 0;
+    font-size: 12px;
+    height: 28px;
+    letter-spacing: 1px;
+    width: 170px;
+	border:transparent;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    margin-right: 20px;
+    padding: 0px 10px;
+    margin-top: 13px;
+    margin-bottom: 50px;
+}
+.error_text{
+	color: #f95e65;
+	margin-bottom: -13px;
+	transition: opacity.5s ease-in-out,visibility .5s 0s;
+	font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    opacity: 1;
+
+
+}
+._hidden{
+	display: none;   
+}
+.error {
+	color: #f95e65;
+		transition: opacity.5s ease-in-out,visibility .5s 0s;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 16px;
+		opacity: 1;
+		margin-bottom: 1px;
+}
+.invalid-field:focus{
+	outline: 1px solid #f95e65;
+}
+.invalid-city:focus{
+	outline: 1px solid #f95e65;
+} /*utilizzato per far apparire e scomparire il riquadro rosso del form */
+ .block{
+	 display: block;
+ }
+ .none{
+display: none;
+ }
+ .dropDownRegali:hover .contenutoDropdownRegali{
+	 display: block;
+	 
+ }
+ .contenutoDropdownRegali{
+	display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 98% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+ }
+.colorelista{
+	list-style-type: none;
+	color:#787776 
+ }
+ .flex{
+	 display: flex;
+ }
+ .containerMenu {
+   
+    font-size: 9px;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 96px;
+}
+
+
+.contenutoDropdownRegali img{
+    width: 59px;
+    height: 59px;
+}
+.partesinistra li,.partedestra li{
+	list-style-type: none; 
+	display: flex;
+	align-items: center;
+	color:#787776;
+}
+.partedestra{
+	padding-top: 40px;
+}
+.partedestra{
+    
+        padding-top: 52px;
+        width: 20%;
+        margin-left: -71px;
+    
+}
+.partesinistra{
+	width: 20%;
+	border-left: 0.1px solid #e7e7e7;
+	
+}
+.partesinistra h4{
+	padding-left: 40px;
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+    padding-top: 10px;
+
+}
+.listaTrovaregalo{
+	font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+
+}
+.regalisinistra{
+	padding-top:20px;
+	padding-left: 224px;
+}
+.regalisinistra strong{
+	font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaRegali{
+	font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.listaUltimecollezioni{
+	font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.regaliMenudestra{
+	padding-right:35px;
+    padding-top: 52px;
+}
+.dropDownWhat:hover .contenutoDropdownWhat{
+	display: block;
+}
+.contenutoDropdownWhat{
+	display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 109% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+}
+.newsinistra{
+	color: #4b4b4b;
+    padding-left: 32px;
+}
+.newsinistra strong{
+	font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    line-height: 12px;
+    min-height: 33px;
+}
+.listaNew{
+	font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+
+.borsesinistra strong{
+	font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+	
+}
+.listaborseb{
+	font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+	line-height: 22px;
+    padding: 0;
+}
+.listacommit{
+	font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+}
+.dropDownBorse:hover .contenutoDropdownBorse{
+	display: block;
+}
+.contenutoDropdownBorse{
+	display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 98% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;	
+    height: 413px;
+
+}
+.borseleft{
+	padding-top:20px;
+	padding-left: 285px;
+  
+    
+}
+.borsette{
+	display: flex;
+	margin-top: 25px;
+    margin-right: 30px;
+}
+
+   
+.borsesinistra {
+    margin-left: 21px;
+    padding-right: 18px;
+    width: 11%;
+    max-height:300px;
+    border-right: 0.1px solid #e7e7e7;
+}
+
+.dropDownBorse:hover .contenutoDropdownBorse{
+	display: block;
+}
+.contenutoDropdownBorse{
+	display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 98% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+}
+.borseleft{
+	display: flex;
+}
+.listaBorse{
+	font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.borseuno strong {
+	font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.projecthouse strong{
+	font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaProject{
+	font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.projecthouse{
+    padding-left: 19px;
+    
+  
+}
+.listaTrovaborsa{
+	font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+	padding-left: 47px;
+    padding-top: 33px;
+	padding-right: 39px;
+}
+.immagineborse img{
+	position: absolute;
+    display: block;
+    z-index: 2;
+	
+	padding-left: 67px;
+    margin-top: 35px;
+}
+.labeltext{
+	color: #fff;
+    padding-left: 204px;
+    padding-top: 112px;
+    z-index: 17;
+	
+}
+.labelwhite{
+	display: flex;
+}
+.contenutoDropdownDonna{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 98% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+}
+.donnauno{
+    padding-top:20px;
+	padding-left: 223px;
+}
+.listaNuoviarrivi{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+    
+    padding-right: 39px;
+   
+}
+.listaRegaliDonna{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+	padding-right: 39px;
+}
+.donnauno strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+
+.dropDownDonna:hover .contenutoDropdownDonna{
+    display: block;
+}
+.donnadue{
+    padding-top:20px;
+    margin-left: 7px;
+    margin-right: 49px;
+	
+}
+.donnadue strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaBorsedonna{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+	line-height: 22px;
+	padding-left: 47px;
+    padding-left: 2px;
+}
+.donnatre{
+    padding-top:20px;
+	
+}
+.donnatre strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaAbbigliamento{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+	padding-left: 1px;
+    
+}
+.donnaquattro{
+    padding-top:20px;
+    margin-right:42px;
+    margin-left:9px;
+
+}
+.listaScarpe{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+	padding-left: 1px;
+    
+}
+.donnaquattro strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.donnacinque{
+    padding-top:20px;
+
+}
+.donnacinque strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaGioielliDonna{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    
+	line-height: 22px;
+	padding-left: 1px;
+   
+}
+.listaAccessoriDonna{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    
+	line-height: 22px;
+	padding-left: 1px;
+    
+}
+
+.dropDownUomo:hover .contenutoDropdownUomo{
+    display: block;
+}
+.contenutoDropdownUomo{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 98% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+}
+.uomouno{
+    padding-top:20px;
+	padding-left: 223px;
+}
+.uomouno strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaNuoviarriviUomo{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+    
+    padding-right: 39px;
+}
+.listaRegaliUomo{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.uomodue{
+    padding-top:20px;
+    margin-left: 7px;
+    margin-right: 49px;
+	  
+}
+.uomodue strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaBorseUomo{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+	line-height: 22px;
+	padding-left: 47px;
+    padding-left: 2px;
+}
+.uomotre{
+    padding-top:20px;
+}
+.uomotre strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaAbbigliamentoUomo{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+	padding-left: 1px;
+    
+}
+.uomoquattro{
+    padding-top:20px;
+    margin-right:42px;
+    margin-left: 51px;
+}
+.uomoquattro strong{
+    
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaScarpeUomo{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+	padding-left: 1px;
+}
+.uomocinque{
+    padding-top:20px;
+}
+.uomocinque strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaGioielliUomo{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    
+	line-height: 22px;
+	padding-left: 1px;
+   
+}
+.listaAccessoriUomo{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    
+	line-height: 22px;
+	padding-left: 1px;
+    
+}
+.dropDownMx:hover .contenutoDropdownMx{
+    display: block;
+}
+.contenutoDropdownMx{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 98% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+}
+.progettomx{
+    margin-left: 297px;
+    margin-right: 38px;
+    margin-top:20px;
+    
+   
+
+}
+
+.progettosx strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+
+}
+.listaProgettomx{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    	line-height: 22px;
+	padding-left: 1px;
+}
+.listaProgettodestra{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    	line-height: 22px;
+	padding-left: 1px;
+}
+
+.immaginemx img{
+
+    z-index: 2;
+	padding-left: 42px;
+    position: absolute;
+    display: block;
+    margin-top: 42px;
+    border-left: 0.1px solid #e7e7e7;
+    
+  
+}
+.progettodestra strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+    margin-top: -65px;
+}
+.progettodestra{
+    margin-left: 308px;
+    padding-left: 33px;
+       
+    
+}
+.lineadestra{
+    border-left: 0.1px solid #e7e7e7;
+    width: 20%;
+}
+.dropDownBambino:hover .contenutoDropdownBambino{
+    display: block;
+}
+.contenutoDropdownBambino{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 194% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+
+}
+.bambinouno{
+    padding-top: 20px;
+    padding-left: 56px;
+}
+.bambinouno strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaNeonato{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+
+}
+.bambinodue{
+    padding-top: 20px;
+    margin-left: 44px;
+    margin-right: 49px;
+
+}
+.bambinodue strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaBambina{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.bambinotre{
+    padding-top:20px;
+    border-right: 0.1px solid #e7e7e7;
+    width: 7%;
+    max-height: 300px;
+}
+.bambinotre strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaBambino{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.bambinoquattro{
+    padding-top: 20px;
+    margin-left: 44px;
+    margin-right: 49px;
+}
+.bambinoquattro strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaLook{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.dropDownGioielli:hover .contenutoDropdownGioielli{
+    display: block;
+}
+.contenutoDropdownGioielli{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 98% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+}
+.gioielliuno{
+    padding-top: 20px;
+    padding-left: 56px;
+}
+.gioielliuno strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaGioiellioro{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.gioiellidue{
+    padding-top: 20px;
+    padding-left: 52px;
+    padding-right: 65px;
+}
+.gioiellidue strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+}
+.listaGioielliargento{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.gioiellitre{
+    padding-top:20px;
+    
+}
+.gioiellitre strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;  
+
+}
+.listaGioiellifashion{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.gioielliquattro{
+    padding-top:20px;
+    border-right: 0.1px solid #e7e7e7;
+    width: 13%;
+    padding-left: 49px;
+
+}
+.gioielliquattro strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px; 
+}
+.listaOrologi{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.gioiellicinque{
+    padding-top:20px;
+    padding-left: 48px;
+}
+.gioiellicinque strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;  
+}
+.listaScopri{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    padding: 0;
+	line-height: 22px;
+}
+.dropDownBeauty:hover .contenutoDropdownBeauty{
+    display: block;
+}
+.contenutoDropdownBeauty{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 98% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+}
+.beautyuno{
+    padding-top: 20px;
+    padding-left: 56px;
+    padding-right: 19px;
+
+}
+.beautyuno strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;  
+}
+.listaUltimi{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding:0;
+    
+	line-height: 22px;
+}
+.listaRegaliBeauty{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding:0;
+    
+    
+	line-height: 22px;
+}
+.beautydue{
+  
+        padding-top: 20px;
+        margin-right: -13px;
+        margin-left: 12px;
+
+}
+.beautydue strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px; 
+}
+.listaProdottilabbra{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding:0;
+    
+   
+	line-height: 22px;
+}
+.listaProdottiocchi{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding:0;
+    
+    
+	line-height: 22px;
+}
+.beautytre{
+    padding-top:20px;
+    margin-right: 24px;
+
+}
+.beautytre strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px; 
+}
+.listaAbbigliamento{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding:0;
+    
+  
+	line-height: 22px;
+}
+.listaProdottiocchi{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding:0;
+    
+    
+	line-height: 22px;
+}
+.beautyquattro{
+    padding-top: 20px;
+}
+.beautyquattro strong {
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px; 
+}
+.listaProfumi{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding:0;
+    
+   
+	line-height: 22px;
+}
+.listaLuxury{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+   
+    padding: 0;
+	line-height: 22px;
+}
+.listaViso{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding:0;
+    
+	line-height: 22px; 
+}
+.listaMani{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+
+    padding: 0;
+	line-height: 22px; 
+}
+.partedestrabeauty h4{
+	padding-left: 40px;
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+    padding-top: 10px;
+}
+.partedestrabeauty{
+    list-style-type: none;
+    margin-right: -112px;
+}
+.partedestrabeauty li{
+	list-style-type: none; 
+	align-items: center;
+	color:#787776;
+    margin-top: 13px;
+	display: flex;
+    margin-right: -26px;
+	
+}
+
+.beautyMenu{
+    font-size: 9px;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-right: 96px;
+  
+}
+.partecentrobeauty li{
+    list-style-type: none;
+    margin-top: 13px;
+    list-style-type: none;
+    align-items: center;
+    color: #787776;
+    display: flex;
+    margin-right: 72px;
+}
+.partecentrobeauty{
+    margin-top: -261px;
+    margin-left: 169px;
+    margin-right: 41px;
+}
+
+   
+
+.dropDownDecor:hover .contenutoDropdownDecor{
+    display: block;
+}
+.contenutoDropdownDecor{
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 98% !important;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0.9;
+	list-style-type: none;
+	cursor: pointer;
+    height: 413px;
+
+}
+.decoruno strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px; 
+}
+.listaDecor{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px; 
+}
+.decorflex{
+    display: flex;
+}
+.decordue strong{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px; 
+}
+.listalife{
+    font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 9px;
+    padding: 0;
+	line-height: 22px;
+}
+.immaginedecor img{
+    position: absolute;
+    display: block;
+    z-index: 2;
+	
+    margin-top: 3px;
+}
+.decoruno{
+    margin-left: 297px;
+    margin-right: 38px;
+    margin-top:20px;
+}
+.decordue {
+    margin-top: 20px;
+    margin-right: 28px;
+    border-right: 0.1px solid #e7e7e7;
+    width: 13%;
+}
+.leggi{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px; 
+    margin-top: 18px;
+
+}
+.labeltextdue{
+	color: #fff;
+    z-index: 17;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-left: -67px;
+    margin-top: 125px;
+    margin-left: -73px;
+    margin-top: 130px;
+	
+}
+.labelwhitedue{
+	display: flex;
+}
+.mxflex{
+    display: flex;
+}
+.leggimx{
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px; 
+    margin-top: 18px;
+    padding-left:41px;
+    border-left: 0.1px solid #e7e7e7;
+}
+.immaginemx{
+   
+    padding-left: 49px;
+    display: flex;
+   
+}
+.contenitoreborse{
+    border-left: 0.1px solid #e7e7e7;
+}
+.beautyflex{
+    display: flex;
+}
+.immaginibeauty{
+    display: flex;
+    justify-content: center;
+    margin-top: -349px;
+    margin-left: 680px;
+    margin-right: 13px;
+}
+.serviziesclusivi H4{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    text-transform: uppercase;
+  
+}
+#carosellowhatsnew{
+    position: relative;
+    height: 4px;
+}
+
+.pallini li{
+
+border: 1px solid black!important;  
+cursor: pointer;
+background-color: #fff;
+border: 1px solid #fff;
+border-radius: 10px;
+}
+.carousel-indicators .active {
+    background-color: black;
+
+}
+.palliniunocolore .active{
+    background-color: black;
+}
+
+.palliniuno li{
+border: 1px solid black!important;  
+cursor: pointer;
+background-color: #fff;
+border-radius: 10px;
+}
+.pallinidue li{
+    border: 1px solid black!important;  
+cursor: pointer;
+background-color: #fff;
+border: 1px solid black;
+border-radius: 10px;
+}
+ .carousel-indicators {
+   z-index:10;
+} 
+.listaserviziesclusivi{
+    font-weight: 400;
+    font-style: normal;
+    color: #e5dfd9;
+    display: flex;
+    line-height: 12px;
+    position: relative;
+    list-style-type: none;
+    flex-direction: column;
+    padding:0;
+}
+.wehelp{
+    font-size: 13px;
+    color: #999;
+    margin-top: 38px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    width: 30%;
+   padding:0;
+   display: flex;
+   flex-direction: column;
+   
+
+}
+.wehelp h4{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    text-transform: uppercase;
+
+}
+.listahelp{
+    font-weight: 400;
+    font-style: normal;
+    color: #e5dfd9;
+    display: inline-block;
+    line-height: 12px;
+    position: relative;
+    list-style-type: none;
+    padding:0;
+    
+}
+.azienda h4{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    text-transform: uppercase;
+}
+.listainfoazienda{
+    font-weight: 400;
+    font-style: normal;
+    color: #e5dfd9;
+    line-height: 12px;
+    position: relative;
+    list-style-type: none;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.segui h4 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    text-transform: uppercase;
+}
+.listasocial{
+    font-weight: 400;
+    font-style: normal;
+    color: #e5dfd9;
+    display: inline-block;
+    line-height: 12px;
+    position: relative;
+    list-style-type: none;
+    padding:0;
+    
+}
+.footersinistra{
+    display: flex;
+}
+/* .text-input::-webkit-input-placeholder{
+    background-image: url("img/image2.png");
+    background-repeat: no-repeat;
+    width: 24px; 
+    height: 10px;
+    position: absolute;
+    
+} */
+.lineaprogetto{
+    border-left: 0.1px solid #e7e7e7;
+}
+.copyright {
+    margin-top: 50px;
+    padding-left: 50px;
+    font-weight: 400;
+    font-style: normal;
+    color: #999;
+}
+.text-input::placeholder {
+    padding-left: 10px;
+}
+#form {
+    position: relative;
+}
+.equilibrio, .guccihover, .garden,.gucci {
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: 50px !important; 
+    margin-bottom: 12px!important; 
+    margin-right: 5px!important;
+    object-fit: contain;
+}
+
+.labelbambino{
+	color: #fff;
+    padding-left: 204px;
+    padding-top: 112px;
+    z-index: 17;
+}
+.labelbambino{
+	color: #fff;
+    padding-left: 204px;
+    padding-top: 112px;
+    z-index: 17;
+	
+}
+.labeltre{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.labelquattro{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.labelcinque{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.labelsei{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1b1b1b;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.labelsette{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center; 
+}
+.labelotto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1b1b1b;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center; 
+
+}
+.labelnove{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.pallini{
+    position: absolute;
+    display: flex;
+    bottom: 54px;
+    float: right;
+    min-width: 25px;
+    top: 246px;
+    left: 115px;
+    min-height: 25px;
+
+}
+.pallinidue{
+    position: absolute;
+    display: flex;
+    bottom: 54px;
+    float: right;
+    min-width: 64px;
+top: 247px;
+    left: 117px;
+}
+.palliniuno {
+    position: absolute;
+    display: flex;
+    bottom: 54px;
+    float: right;
+    min-width: 64px;
+    top: 205px;
+    left: 99px;
+
+}
+
+.immaginibeauty{
+    display: flex;
+    justify-content: center;
+    margin-top: -349px;
+    margin-left: 680px;
+    margin-right: 13px;
+}
+/* 
+.carousel .item>img {
+    position: absolute;
+     */
+
+/* #carosellobambino{
+    height: 40px;
+} */
+.bimbocarol{
+    padding-right: 30px;
+    padding-top: 58px;
+}
+.palliniuno{
+    
+    position: absolute;
+    display: flex;
+    bottom: 54px;
+    float: right;
+    min-width: 64px;
+    top:245px;
+    left: 116px;
+}
+.gioiellifine{
+    padding-top: 58px;
+    padding-left: 44px;
+}
+.partedestrawhat li{
+    list-style-type: none;
+    margin-top: 13px;
+    list-style-type: none;
+    align-items: center;
+    color: #787776;
+    display: flex;
+    margin-right: 72px;
+}
+
+.partedestrawhat h4{ 
+    font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    min-height: 33px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.whatMenu{
+    font-size: 9px;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 96px;
+   
+  
+}
+.immaginiwhat{
+    margin-left: 21px;
+    max-height:300px;
+    border-left: 0.1px solid #e7e7e7;
+    top: 220px;
+    left: 105px;
+
+}
+.partecentrowhat li {
+    list-style-type: none;
+    margin-top: 13px;
+    list-style-type: none;
+    align-items: center;
+    color: #787776;
+    display: flex;
+    margin-right: 72px;
+}
+.partecentrowhat{
+    margin-top: -261px;  
+    margin-left: 208px;
+
+    
+}
+.whatcarol {
+    padding-top: 42px;
+        padding-left: 32px;
+    
+}
+.openDropdown{
+    display: none;
+
+}
+.closeDropdown{
+    background-color: #fff;
+    outline: none;
+    position: absolute;
+    right: 0;
+    width: 738px;
+    height: 536px;
+    top: 62px;
+    width: 738px;
+    height: 515px;
+}
+input.testoform {
+    border: none;
+    outline-color: white;
+    border-color: white;
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.container{
+    margin: 67px;
+}
+.formsearch{
+    border-bottom: 1px solid #333;
+}
+.Search_tendenza h4{
+    color: #333;
+    display: block;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.36364;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.Search_tendenza li{
+    list-style: circle;
+}
+.Search_novita h4{
+    color: #333;
+    display: block;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.36364;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.Search_novita li{
+        list-style: circle;
+    
+}
+.Search_novita{
+    margin-top: -112px;
+    margin-left: 274px;
+    border-left: 1px solid #333 ;
+    height: 330px;
+}
+#cercadue{
+    margin-left: -294px;
+    width: 36px;
+}
+.flexSearch {
+    margin-left: 46px;
+}
